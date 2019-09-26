@@ -2,7 +2,8 @@ FROM node
 
 RUN	apt-get update && \
 	apt-get install -y --no-install-recommends \
-            tcpdump
+            tcpdump \
+            sysstat
 
 # Create app directory
 RUN mkdir -p /usr/src/app

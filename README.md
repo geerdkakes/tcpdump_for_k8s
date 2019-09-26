@@ -113,4 +113,5 @@ The pcap file can be downloaded using:
 ```
 curl localhost/download > data.pcap
 ```
+Next to tcpdump you can also get system statistics with iostat. You can use the endpoints: `startiostat`, `stopiostat` and `downloadiostat` for this.
 
